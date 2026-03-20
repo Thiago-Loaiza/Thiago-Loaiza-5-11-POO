@@ -1,0 +1,14 @@
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\Punto 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\Punto 6.AssemblyInfoInputs.cache
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\Punto 6.AssemblyInfo.cs
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\Punto 6.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\bin\Debug\net10.0\Punto 6.exe
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\bin\Debug\net10.0\Punto 6.deps.json
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\bin\Debug\net10.0\Punto 6.runtimeconfig.json
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\bin\Debug\net10.0\Punto 6.dll
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\bin\Debug\net10.0\Punto 6.pdb
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\Punto 6.dll
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\refint\Punto 6.dll
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\Punto 6.pdb
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\Punto 6.genruntimeconfig.cache
+C:\Users\alumno\source\repos\Thiago Loaiza - Act1\Thiago Loaiza - Act1\obj\Debug\net10.0\ref\Punto 6.dll
