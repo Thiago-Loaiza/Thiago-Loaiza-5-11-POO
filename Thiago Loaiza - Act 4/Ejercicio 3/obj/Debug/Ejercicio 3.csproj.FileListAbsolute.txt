@@ -1,0 +1,7 @@
+C:\Users\alumno\source\repos\Thiago Loaiza - Act 4\Ejercicio 3\obj\Debug\Ejercicio 3.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\Thiago Loaiza - Act 4\Ejercicio 3\obj\Debug\Ejercicio 3.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Thiago Loaiza - Act 4\Ejercicio 3\bin\Debug\Ejercicio 3.exe.config
+C:\Users\alumno\source\repos\Thiago Loaiza - Act 4\Ejercicio 3\bin\Debug\Ejercicio 3.exe
+C:\Users\alumno\source\repos\Thiago Loaiza - Act 4\Ejercicio 3\bin\Debug\Ejercicio 3.pdb
+C:\Users\alumno\source\repos\Thiago Loaiza - Act 4\Ejercicio 3\obj\Debug\Ejercicio 3.exe
+C:\Users\alumno\source\repos\Thiago Loaiza - Act 4\Ejercicio 3\obj\Debug\Ejercicio 3.pdb
