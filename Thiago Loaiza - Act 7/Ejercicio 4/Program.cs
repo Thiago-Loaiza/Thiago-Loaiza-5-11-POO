@@ -69,6 +69,7 @@ namespace Ejercicio_4
             iv.IngresoVector();
             iv.MenorAMayor();
             iv.MayorAMenor();
+            Console.ReadKey();
         }
     }
 }
