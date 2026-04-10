@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B449C29-6450-436A-ADF5-61CDD0B70BAE}|Ejercicio 1\\Ejercicio 1.csproj|C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\ejercicio 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B449C29-6450-436A-ADF5-61CDD0B70BAE}|Ejercicio 1\\Ejercicio 1.csproj|solutionrelative:ejercicio 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28843BD4-EA53-4365-A372-3D30807C8FB3}|Ejercicio 2\\Ejercicio 2.csproj|C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\ejercicio 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28843BD4-EA53-4365-A372-3D30807C8FB3}|Ejercicio 2\\Ejercicio 2.csproj|solutionrelative:ejercicio 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58B6124-FA62-4853-8DFA-FB23B4919EA1}|Ejercicio 3\\Ejercicio 3.csproj|C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\ejercicio 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58B6124-FA62-4853-8DFA-FB23B4919EA1}|Ejercicio 3\\Ejercicio 3.csproj|solutionrelative:ejercicio 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D040FA8-D774-466D-A073-7ECE41F36648}|Ejercicio 4\\Ejercicio 4.csproj|c:\\users\\alumno\\source\\repos\\thiago loaiza - act 7\\ejercicio 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040FA8-D774-466D-A073-7ECE41F36648}|Ejercicio 4\\Ejercicio 4.csproj|solutionrelative:ejercicio 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\Ejercicio 2\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio 2\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\Ejercicio 2\\Program.cs",
+              "RelativeToolTip": "Ejercicio 2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:27:47.051Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\Ejercicio 3\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio 3\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\Ejercicio 3\\Program.cs",
+              "RelativeToolTip": "Ejercicio 3\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T12:06:33.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\Ejercicio 1\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio 1\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\Ejercicio 1\\Program.cs",
+              "RelativeToolTip": "Ejercicio 1\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:27:00.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\Ejercicio 4\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio 4\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\Thiago Loaiza - Act 7\\Ejercicio 4\\Program.cs",
+              "RelativeToolTip": "Ejercicio 4\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T12:24:29.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
