@@ -60,7 +60,7 @@ namespace Ejercicio_4
             {
                 for (int c = 0; c < tiemposOperacion[f].Length; c++)
                 {
-                    Console.WriteLine("Ingrese tiempo de la subtarea");
+                    Console.WriteLine("Ingrese tiempo de la subtarea || " + f  + " " + c);
 
                     tiemposOperacion[f][c] = float.Parse(Console.ReadLine());
                 }
