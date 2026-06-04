@@ -44,7 +44,9 @@ namespace Ejercicio_1
             {
                 for (int c = 0; c < 4; c++)
                 {
-                    Console.WriteLine("Ingrese el valor de la lectura del dia numero " + (f + 1) + " en el momento del dia " + c + " / 4"); //Poner dias mañana, tarde tal
+                    string[] dias = { "mañana", "mediodia", "tarde", "noche" };
+
+                    Console.WriteLine("Ingrese el valor de la lectura del dia numero " + (f + 1) + " en el momento del dia " + (dias[c]) + " ( " + (c + 1) + " / 4 )");
                     string linea = Console.ReadLine();
                     ritmoCardiaco[f, c] = int.Parse(linea);
                 }
@@ -87,9 +89,11 @@ namespace Ejercicio_1
                 Console.WriteLine("Pulsasiones del paciente : " + pacientes[g].ReturnarNombre());
                 for (int f = 0; f < 3; f++)
                 {
+                    Console.WriteLine("Pulsasiones del dia numero : " + (f+1));
                     for (int c = 0; c < 4; c++)
                     {
-                        Console.Write(pacientes[g].ReturnarMat(f, c) + " - ");
+                        string[] dias = { "mañana", "mediodia", "tarde", "noche" };
+                        Console.Write("Momento : " + dias[c] + "  " + pacientes[g].ReturnarMat(f, c) + " || ");
                     }
                     Console.WriteLine("");
                 }
@@ -111,7 +115,7 @@ namespace Ejercicio_1
                         total = total + pacientes[g].ReturnarMat(f, c);
                     }
                 }
-                promedio = (float)total / 12;
+                promedio = (total / 12);
                 Console.WriteLine("El promedio de las pulsaciones del paciente : " + pacientes[g].ReturnarNombre() + " Es de : " + promedio);
                 promedio = 0;
                 total = 0;
