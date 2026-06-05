@@ -1,0 +1,7 @@
+C:\Users\alumno.ET26\source\repos\Thiago Loaiza - Act 16\Ejecicio 1\bin\Debug\Ejecicio 1.exe.config
+C:\Users\alumno.ET26\source\repos\Thiago Loaiza - Act 16\Ejecicio 1\bin\Debug\Ejecicio 1.exe
+C:\Users\alumno.ET26\source\repos\Thiago Loaiza - Act 16\Ejecicio 1\bin\Debug\Ejecicio 1.pdb
+C:\Users\alumno.ET26\source\repos\Thiago Loaiza - Act 16\Ejecicio 1\obj\Debug\Ejecicio 1.csproj.AssemblyReference.cache
+C:\Users\alumno.ET26\source\repos\Thiago Loaiza - Act 16\Ejecicio 1\obj\Debug\Ejecicio 1.csproj.CoreCompileInputs.cache
+C:\Users\alumno.ET26\source\repos\Thiago Loaiza - Act 16\Ejecicio 1\obj\Debug\Ejecicio 1.exe
+C:\Users\alumno.ET26\source\repos\Thiago Loaiza - Act 16\Ejecicio 1\obj\Debug\Ejecicio 1.pdb
