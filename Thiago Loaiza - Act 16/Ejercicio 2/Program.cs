@@ -53,15 +53,43 @@ namespace Ejercicio_2
         Producto produc3 = new Producto();
         public void Seteo()
         {
-            produc1.Nombre = "Empanada";
-            produc1.Precio = 1750;
-            produc1.Stock = 100;
-            produc2.Nombre = "Queso rallado";
-            produc2.Precio = 1200;
-            produc2.Stock = 250;
-            produc3.Nombre = "Gaseosa"; //Ingresar por consola
-            produc3.Precio = 3000;
-            produc3.Stock = 1;
+            Console.WriteLine("PRODUCTO 1");
+
+            Console.Write("Nombre: ");
+            produc1.Nombre = Console.ReadLine();
+
+            Console.Write("Precio: ");
+            produc1.Precio = int.Parse(Console.ReadLine());
+
+            Console.Write("Stock: ");
+            produc1.Stock = int.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+
+            Console.WriteLine("PRODUCTO 2");
+
+            Console.Write("Nombre: ");
+            produc2.Nombre = Console.ReadLine();
+
+            Console.Write("Precio: ");
+            produc2.Precio = int.Parse(Console.ReadLine());
+
+            Console.Write("Stock: ");
+            produc2.Stock = int.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+
+            Console.WriteLine("PRODUCTO 3");
+
+            Console.Write("Nombre: ");
+            produc3.Nombre = Console.ReadLine();
+
+            Console.Write("Precio: ");
+            produc3.Precio = int.Parse(Console.ReadLine());
+
+            Console.Write("Stock: ");
+            produc3.Stock = int.Parse(Console.ReadLine());
+
             produc1.VerificacionStock();
             produc2.VerificacionStock();
             produc3.VerificacionStock();

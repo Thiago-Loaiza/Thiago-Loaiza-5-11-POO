@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ejercicio_3
 {
     /*
-       3. Crear una clase base Vehículo que contenga atributos marca y
+    3. Crear una clase base Vehículo que contenga atributos marca y
         velocidadMaxima.
         Definir dos clases derivadas: Auto y Moto, que hereden de Vehículo. Cada
         una debe tener un constructor que reciba los valores de los atributos base
@@ -19,7 +19,7 @@ namespace Ejercicio_3
     {
         protected string marca;
         protected int velocidadMaxima;
-        protected string[] Base;
+
         public string Marca
         {
             set { marca = value; }
@@ -31,21 +31,35 @@ namespace Ejercicio_3
             set { velocidadMaxima = value; }
             get { return velocidadMaxima; }
         }
+
+        public Vehiculo(string marca, int velocidadMaxima)
+        {
+            Marca = marca;
+            VelocidadMaxima = velocidadMaxima;
+        }
     }
 
     public class Auto : Vehiculo
     {
         private int cantidadPuertas;
+
         public int CantidadPuertas
         {
             set { cantidadPuertas = value; }
             get { return cantidadPuertas; }
         }
-        public Auto()
+
+        public Auto(string marca, int velocidadMaxima, int cantidadPuertas)
+            : base(marca, velocidadMaxima)
         {
-            Base = new string[2];
-            Base[0] = "45RE51";
-            Base[1] = "1000";
+            CantidadPuertas = cantidadPuertas;
+        }
+
+        public void MostrarAuto()
+        {
+            Console.WriteLine("Marca: " + Marca);
+            Console.WriteLine("Velocidad maxima: " + VelocidadMaxima);
+            Console.WriteLine("Cantidad de puertas: " + CantidadPuertas);
         }
     }
 
@@ -58,12 +72,59 @@ namespace Ejercicio_3
             set { cilindrada = value; }
             get { return cilindrada; }
         }
+
+        public Moto(string marca, int velocidadMaxima, int cilindrada)
+            : base(marca, velocidadMaxima)
+        {
+            Cilindrada = cilindrada;
+        }
+
+        public void MostrarMoto()
+        {
+            Console.WriteLine("Marca: " + Marca);
+            Console.WriteLine("Velocidad maxima: " + VelocidadMaxima);
+            Console.WriteLine("Cilindrada: " + Cilindrada);
+        }
     }
 
-    internal class Program
+    class Prueba
     {
         static void Main(string[] args)
         {
+            Console.Write("Marca del auto: ");
+            string marcaAuto = Console.ReadLine();
+
+            Console.Write("Velocidad maxima del auto: ");
+            int velAuto = int.Parse(Console.ReadLine());
+
+            Console.Write("Cantidad de puertas: ");
+            int puertas = int.Parse(Console.ReadLine());
+
+            Auto auto = new Auto(marcaAuto, velAuto, puertas);
+
+            Console.WriteLine();
+
+            Console.Write("Marca de la moto: ");
+            string marcaMoto = Console.ReadLine();
+
+            Console.Write("Velocidad maxima de la moto: ");
+            int velMoto = int.Parse(Console.ReadLine());
+
+            Console.Write("Cilindrada: ");
+            int cil = int.Parse(Console.ReadLine());
+
+            Moto moto = new Moto(marcaMoto, velMoto, cil);
+
+            Console.WriteLine();
+            Console.WriteLine("Datos del auto");
+            auto.MostrarAuto();
+
+            Console.WriteLine();
+
+            Console.WriteLine("Datos de la moto");
+            moto.MostrarMoto();
+
+            Console.ReadKey();
         }
     }
 }

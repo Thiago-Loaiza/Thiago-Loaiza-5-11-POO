@@ -59,14 +59,23 @@ namespace Ejecicio_1
         static void Main(string[] args)
         {
             Persona persona1 = new Persona();
-            persona1.Nombre = "Pepe";
-            persona1.Edad = 22;
+
+            Console.Write("Ingrese el nombre: ");
+            persona1.Nombre = Console.ReadLine();
+
+            Console.Write("Ingrese la edad: ");
+            persona1.Edad = int.Parse(Console.ReadLine());
+
             persona1.ImprimirPerson();
+
             Empleado empleado = new Empleado();
+
             empleado.Nombre = persona1.Nombre;
-            empleado.Sueldo = 200000;
+
+            Console.Write("Ingrese el sueldo del empleado: ");
+            empleado.Sueldo = int.Parse(Console.ReadLine());
+
             empleado.ImprimirSueld();
-            Console.ReadKey();
         }
     }
 }
