@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Ejercicio_4
 {
@@ -30,6 +30,7 @@ namespace Ejercicio_4
 
             Console.WriteLine("Constructor Animal");
             Console.WriteLine("Especie: " + Especie);
+            Console.WriteLine("");
         }
     }
 
@@ -50,6 +51,7 @@ namespace Ejercicio_4
 
             Console.WriteLine("Constructor Mamifero");
             Console.WriteLine("Tipo alimentacion: " + TipoAlimentacion);
+            Console.WriteLine("");
         }
     }
 
@@ -70,6 +72,7 @@ namespace Ejercicio_4
 
             Console.WriteLine("Constructor Perro");
             Console.WriteLine("Nombre: " + Nombre);
+            Console.WriteLine("");
         }
     }
 
@@ -77,18 +80,7 @@ namespace Ejercicio_4
     {
         static void Main(string[] args)
         {
-            Console.Write("Ingrese especie: ");
-            string especie = Console.ReadLine();
-
-            Console.Write("Ingrese tipo de alimentacion: ");
-            string alimentacion = Console.ReadLine();
-
-            Console.Write("Ingrese nombre del perro: ");
-            string nombre = Console.ReadLine();
-
-            Console.WriteLine();
-
-            Perro perro = new Perro(especie, alimentacion, nombre);
+            Perro perro = new Perro("Caniche","Carne","Firulais");
 
             Console.ReadKey();
         }
