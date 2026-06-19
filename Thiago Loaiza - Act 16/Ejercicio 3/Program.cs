@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -91,31 +91,8 @@ namespace Ejercicio_3
     {
         static void Main(string[] args)
         {
-            Console.Write("Marca del auto: ");
-            string marcaAuto = Console.ReadLine();
-
-            Console.Write("Velocidad maxima del auto: ");
-            int velAuto = int.Parse(Console.ReadLine());
-
-            Console.Write("Cantidad de puertas: ");
-            int puertas = int.Parse(Console.ReadLine());
-
-            Auto auto = new Auto(marcaAuto, velAuto, puertas);
-
-            Console.WriteLine();
-
-            Console.Write("Marca de la moto: ");
-            string marcaMoto = Console.ReadLine();
-
-            Console.Write("Velocidad maxima de la moto: ");
-            int velMoto = int.Parse(Console.ReadLine());
-
-            Console.Write("Cilindrada: ");
-            int cil = int.Parse(Console.ReadLine());
-
-            Moto moto = new Moto(marcaMoto, velMoto, cil);
-
-            Console.WriteLine();
+            Auto auto = new Auto("Toyota",5000,4);
+            Moto moto = new Moto("Cevrolet",6000,50);
             Console.WriteLine("Datos del auto");
             auto.MostrarAuto();
 
