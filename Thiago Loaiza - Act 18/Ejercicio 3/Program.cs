@@ -5,6 +5,21 @@ using System.Text;
 
 namespace Ejercicio_3
 {
+    /*
+    Crear una clase base llamada SondaExploradora que contenga los atributos Modelo (string) y
+    AutonomiaMinutos (int). Definir un constructor que reciba estos dos valores como parámetros y
+    realice su asignación.
+    Luego, definir dos clases derivadas de la clase base:
+        ● SondaSubmarina: que añade el atributo propio PresionMaximaAtm (int, presión máxima
+        soportada en atmósferas).
+        ● RoverTerrestre: que añade el atributo propio CantidadRuedas (int).
+    Cada una de estas clases derivadas debe poseer su propio constructor. El mismo debe recibir
+    tanto el atributo específico como los heredados de la clase base, transfiriendo estos últimos a la
+    clase SondaExploradora mediante el uso explícito de la palabra clave base.
+    En el método Main, instanciar un objeto de cada clase derivada y mostrar la totalidad de sus
+    parámetros unificados por consola.
+    */
+
     class SondaExploradora
     {
         protected string modelo;

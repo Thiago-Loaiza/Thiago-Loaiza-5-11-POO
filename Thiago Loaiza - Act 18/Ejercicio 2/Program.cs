@@ -6,6 +6,23 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_2
 {
+        /*
+    Plantear una clase llamada CriaturaMarina y otra clase llamada HabitatAcuatico.
+    La clase CriaturaMarina debe tener como atributos privados: Especie (string),
+    ProfundidadOptima (int, en metros) y NivelSalinidad (un valor de 1 a 100). Definir las
+    propiedades necesarias para acceder a estos atributos asegurando mediante validaciones que:
+
+        ● La profundidad óptima sea estrictamente mayor a cero (0).
+        ● El nivel de salinidad se encuentre únicamente en el rango de 1 a 100 (de lo contrario,
+        asignar un valor por defecto de 35, que representa la salinidad promedio del océano).
+
+    La clase HabitatAcuatico debe contener como atributo un vector capaz de almacenar 3 objetos
+    de la clase CriaturaMarina. Definir un método dentro de HabitatAcuatico para cargar las 3
+    criaturas y otro método para mostrar todas las criaturas ordenadas de menor a mayor en base
+    a su profundidad óptima. Además, el programa debe informar la especie que requiere el mayor
+    nivel de salinidad para sobrevivir.
+     */
+
     class CriaturaMarina
     {
         private string especie;

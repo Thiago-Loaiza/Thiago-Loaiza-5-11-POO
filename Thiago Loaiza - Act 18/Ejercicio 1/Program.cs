@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ejercicio_1
 {
     /*
-     1.
+    1.
     Confeccionar una clase llamada DispositivoEnergia que tenga como atributos privados el
     CodigoIdentificador (string) y la GeneracionKwh (double, que representa los Kilowatts-hora
     generados). Definir sus respectivas propiedades de lectura y escritura, validando que la
