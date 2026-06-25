@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ejercicio_2
 {
     /*
-     2. Plantear una clase Producto y otra clase Inventario.
+        2. Plantear una clase Producto y otra clase Inventario.
         La clase Producto debe tener como atributos privados el nombre, precio y
         stock. Definir propiedades para acceder a estos atributos, asegurando que el
         stock no pueda ser negativo y el precio sea mayor a cero.
@@ -18,108 +18,75 @@ namespace Ejercicio_2
      */
     public class Producto
     {
-        private string nombre;
-        private int precio;
-        private int stock;
+        protected string nombre;
+        protected int precio;
+        protected int stock;
 
         public string Nombre
         {
-            set { nombre = value; }
             get { return nombre; }
+            set { nombre = value; }
         }
+
         public int Precio
         {
-            set { precio = value; }
             get { return precio; }
-        }
-        public int Stock
-        {
-            set { stock = value; }
-            get { return stock; }
-        }
-        public void VerificacionStock()
-        {
-            if (Stock < 0)
+            set
             {
-                Console.WriteLine("El stock del producto " + Nombre + " no debe ser menor a 0 o negativo");
-                return;
+                if (value > 0)
+                    precio = value;
             }
         }
-    }
-    internal class Inventario
-    {
-        Producto produc1 = new Producto();
-        Producto produc2 = new Producto();
-        Producto produc3 = new Producto();
-        public void Seteo()
+
+        public int Stock
         {
-            Console.WriteLine("PRODUCTO 1");
+            get { return stock; }
+            set
+            {
+                if (value >= 0)
+                    stock = value;
+            }
+        }
 
-            Console.Write("Nombre: ");
-            produc1.Nombre = Console.ReadLine();
+        public Producto(string nombre, int precio, int stock)
+        {
+            Nombre = nombre;
+            Precio = precio;
+            Stock = stock;
+        }
+    }
 
-            Console.Write("Precio: ");
-            produc1.Precio = int.Parse(Console.ReadLine());
+    public class Inventario : Producto
+    {
+        private Producto produc1;
+        private Producto produc2;
+        private Producto produc3;
 
-            Console.Write("Stock: ");
-            produc1.Stock = int.Parse(Console.ReadLine());
-
-            Console.WriteLine();
-
-            Console.WriteLine("PRODUCTO 2");
-
-            Console.Write("Nombre: ");
-            produc2.Nombre = Console.ReadLine();
-
-            Console.Write("Precio: ");
-            produc2.Precio = int.Parse(Console.ReadLine());
-
-            Console.Write("Stock: ");
-            produc2.Stock = int.Parse(Console.ReadLine());
-
-            Console.WriteLine();
-
-            Console.WriteLine("PRODUCTO 3");
-
-            Console.Write("Nombre: ");
-            produc3.Nombre = Console.ReadLine();
-
-            Console.Write("Precio: ");
-            produc3.Precio = int.Parse(Console.ReadLine());
-
-            Console.Write("Stock: ");
-            produc3.Stock = int.Parse(Console.ReadLine());
-
-            produc1.VerificacionStock();
-            produc2.VerificacionStock();
-            produc3.VerificacionStock();
+        public Inventario(string nombre, int precio, int stock)
+            : base(nombre, precio, stock)
+        {
+            produc1 = new Producto("Queso", 6000, 22);
+            produc2 = new Producto("Mani", 2000, 600);
+            produc3 = new Producto("Banana", 4000, 500);
         }
 
         public void DeMenorAMayor_Y_ElMasCaroYMasBarato()
         {
             Producto[] productos = { produc1, produc2, produc3 };
+
             int mayor = productos[0].Precio;
             int menor = productos[0].Precio;
-            string nom1 = productos[0].Nombre;
-            string nom2 = productos[0].Nombre;
-            var aux = productos[0];
 
-            for (int i = 0; i < productos.Length; i++)
+            string nomMayor = productos[0].Nombre;
+            string nomMenor = productos[0].Nombre;
+
+            Producto aux;
+
+            for (int i = 0; i < productos.Length - 1; i++)
             {
-                if (productos[i].Precio > mayor)
+                for (int j = i + 1; j < productos.Length; j++)
                 {
-                    mayor = productos[i].Precio;
-                    nom1 = productos[i].Nombre;
-                }
-                if (productos[i].Precio < menor)
-                {
-                    menor = productos[i].Precio;
-                    nom2 = productos[i].Nombre;
-                }
-
-                for (int j = 0; j < productos.Length - 1; j++)
-                {
-                    if (productos[i].Precio < productos[j].Precio)
+                    if (productos[i].Precio > productos[j].Precio)
                     {
                         aux = productos[i];
                         productos[i] = productos[j];
@@ -128,24 +95,39 @@ namespace Ejercicio_2
                 }
             }
 
-            Console.WriteLine("Productos de menor a mayor(base precio)");
-            Console.WriteLine("");
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < productos.Length; i++)
             {
-                Console.Write(productos[i].Nombre + " - ");
-            }
-            Console.WriteLine();
-            Console.WriteLine("El producto mas caro de todo el inventario es : " + nom1 + " con una cantidad de $" + mayor);
-            Console.WriteLine("El producto mas barata de todo el inventario es : " + nom2 + " con una cantidad de $" + menor);
-        }
+                if (productos[i].Precio > mayor)
+                {
+                    mayor = productos[i].Precio;
+                    nomMayor = productos[i].Nombre;
+                }
 
+                if (productos[i].Precio < menor)
+                {
+                    menor = productos[i].Precio;
+                    nomMenor = productos[i].Nombre;
+                }
+            }
+
+            Console.WriteLine("Productos ordenados de menor a mayor:");
+
+            for (int i = 0; i < productos.Length; i++)
+            {
+                Console.WriteLine(productos[i].Nombre + " - $" + productos[i].Precio);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Producto mas caro: " + nomMayor + " - $" + mayor);
+            Console.WriteLine("Producto mas barato: " + nomMenor + " - $" + menor);
+        }
 
         static void Main(string[] args)
         {
-            Inventario i = new Inventario();
+            Inventario i = new Inventario("Inventario", 1, 0);
 
-            i.Seteo();
             i.DeMenorAMayor_Y_ElMasCaroYMasBarato();
+
             Console.ReadKey();
         }
     }
