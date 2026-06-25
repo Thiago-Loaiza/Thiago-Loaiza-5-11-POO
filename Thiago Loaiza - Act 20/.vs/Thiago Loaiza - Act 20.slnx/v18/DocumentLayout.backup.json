@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF99D82-EF90-4AD8-B090-CB484D706B01}|Ejercicio 3\\Ejercicio 3.csproj|c:\\users\\juanl\\onedrive\\desktop\\thiago-loaiza-5-11-poo\\thiago loaiza - act 20\\ejercicio 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF99D82-EF90-4AD8-B090-CB484D706B01}|Ejercicio 3\\Ejercicio 3.csproj|solutionrelative:ejercicio 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF99D82-EF90-4AD8-B090-CB484D706B01}|Ejercicio 3\\Ejercicio 3.csproj|c:\\users\\juanl\\onedrive\\desktop\\thiago-loaiza-5-11-poo\\thiago loaiza - act 20\\ejercicio 3\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF99D82-EF90-4AD8-B090-CB484D706B01}|Ejercicio 3\\Ejercicio 3.csproj|solutionrelative:ejercicio 3\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723F9B71-AAB4-400E-A902-1DC9798A93B5}|Ejercicio 1\\Ejercicio 1.csproj|c:\\users\\juanl\\onedrive\\desktop\\thiago-loaiza-5-11-poo\\thiago loaiza - act 20\\ejercicio 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723F9B71-AAB4-400E-A902-1DC9798A93B5}|Ejercicio 1\\Ejercicio 1.csproj|solutionrelative:ejercicio 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723F9B71-AAB4-400E-A902-1DC9798A93B5}|Ejercicio 1\\Ejercicio 1.csproj|c:\\users\\juanl\\onedrive\\desktop\\thiago-loaiza-5-11-poo\\thiago loaiza - act 20\\ejercicio 1\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723F9B71-AAB4-400E-A902-1DC9798A93B5}|Ejercicio 1\\Ejercicio 1.csproj|solutionrelative:ejercicio 1\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\Ejercicio 3\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio 3\\Program.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\Ejercicio 3\\Program.cs",
+              "RelativeToolTip": "Ejercicio 3\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwD0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T23:29:54.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Archivo1.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\Ejercicio 3\\Archivo1.cs",
+              "RelativeDocumentMoniker": "Ejercicio 3\\Archivo1.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\Ejercicio 3\\Archivo1.cs",
+              "RelativeToolTip": "Ejercicio 3\\Archivo1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T23:29:06.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Archivo1.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\Ejercicio 1\\Archivo1.cs",
+              "RelativeDocumentMoniker": "Ejercicio 1\\Archivo1.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\Ejercicio 1\\Archivo1.cs",
+              "RelativeToolTip": "Ejercicio 1\\Archivo1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T23:26:10.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\Ejercicio 1\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio 1\\Program.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Desktop\\Thiago-Loaiza-5-11-POO\\Thiago Loaiza - Act 20\\Ejercicio 1\\Program.cs",
+              "RelativeToolTip": "Ejercicio 1\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv0UAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T23:23:19.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
