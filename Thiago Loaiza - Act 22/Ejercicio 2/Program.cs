@@ -20,6 +20,37 @@ namespace Ejercicio_2
     {
         static void Main(string[] args)
         {
+            ElementoPantalla[] elementos = new ElementoPantalla[4];
+
+            for (int i = 0; i < elementos.Length; i++)
+            {
+                Console.Clear();
+
+                Console.WriteLine("Elemento " + (i + 1));
+
+                Console.Write("Nombre: ");
+                string nombre = Console.ReadLine();
+
+                Console.Write("Posicion X: ");
+                int x = int.Parse(Console.ReadLine());
+
+                Console.Write("Posicion Y: ");
+                int y = int.Parse(Console.ReadLine());
+
+                elementos[i] = new ElementoPantalla(nombre, x, y);
+            }
+
+            Console.Clear();
+
+            for (int i = 0; i < elementos.Length; i++)
+            {
+                elementos[i].Mostrar();
+            }
+
+            Console.SetCursorPosition(0, 20);
+            Console.CursorVisible = true;
+
+            Console.ReadKey();
         }
     }
 }

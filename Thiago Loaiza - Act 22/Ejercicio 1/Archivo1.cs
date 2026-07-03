@@ -11,46 +11,40 @@ namespace Ejercicio_1
         private string nombreclase;
         private DateTime horainicio;
         private DateTime horafin;
-
         public string NombreClase
         {
-            set { nombreclase = value; }
             get { return nombreclase; }
+            set { nombreclase = value; }
         }
 
         public DateTime HoraInicio
         {
-            set {  horainicio = value; }
             get { return horainicio; }
+            set { horainicio = value; }
         }
 
         public DateTime HoraFin
         {
-            set { horafin = value; }
             get { return horafin; }
+            set { horafin = value; }
         }
 
         public Gimnasio()
         {
-            nombreclase = "Sin Nombre";
-            horainicio = new DateTime(1,1,1,1,1,1);
-            horafin = new DateTime(1,1,1,1,1,1);
+            nombreclase = "Sin nombre";
+            horainicio = DateTime.Now;
+            horafin = DateTime.Now;
         }
-
         public Gimnasio(string clase, DateTime hn, DateTime hf)
         {
-            nombreclase = clase;
-            horainicio = hn;
-            horafin = hf;
+            this.nombreclase = clase;
+            this.horainicio = hn;
+            this.horafin = hf;
         }
 
         public TimeSpan CalculadorTiempo()
         {
-            TimeSpan duracion;
-
-            duracion = HoraInicio - HoraFin;
-            Console.WriteLine("La duracion de la clase " + NombreClase + " es de: " + duracion);
-            return duracion;
+            return HoraFin - HoraInicio;
         }
     }
 }

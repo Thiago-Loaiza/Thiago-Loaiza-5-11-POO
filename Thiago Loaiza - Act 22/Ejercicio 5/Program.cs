@@ -31,6 +31,104 @@ namespace Ejercicio_5
     {
         static void Main(string[] args)
         {
+            Carrera[] carreras = new Carrera[2];
+
+            for (int i = 0; i < carreras.Length; i++)
+            {
+                Console.WriteLine("Carrera " + (i + 1));
+
+                Console.Write("Codigo: ");
+                string codigo = Console.ReadLine();
+
+                Console.Write("Hora de inicio (horas:minutos): ");
+                DateTime inicio = DateTime.Parse(Console.ReadLine());
+
+                Console.Write("Hora de fin (horas:minutos): ");
+                DateTime fin = DateTime.Parse(Console.ReadLine());
+
+                carreras[i] = new Carrera(codigo, inicio, fin);
+
+                for (int j = 0; j < 2; j++)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Corredor " + (j + 1));
+
+                    Console.Write("Nombre: ");
+                    string nombre = Console.ReadLine();
+
+                    Console.Write("Dorsal: ");
+                    int dorsal = int.Parse(Console.ReadLine());
+
+                    Corredor c = new Corredor(nombre, dorsal);
+
+                    Console.WriteLine("1 - Minutos");
+                    Console.WriteLine("2 - Horas y minutos");
+
+                    int op = int.Parse(Console.ReadLine());
+
+                    if (op == 1)
+                    {
+                        Console.Write("Minutos: ");
+                        int minutos = int.Parse(Console.ReadLine());
+
+                        c.RegistrarTiempo(minutos);
+                    }
+                    else
+                    {
+                        Console.Write("Horas: ");
+                        int horas = int.Parse(Console.ReadLine());
+
+                        Console.Write("Minutos: ");
+                        int minutos = int.Parse(Console.ReadLine());
+
+                        c.RegistrarTiempo(horas, minutos);
+                    }
+
+                    carreras[i].Corredores.Add(c);
+                }
+
+                Console.WriteLine();
+            }
+
+            Carrera mayor = carreras[0];
+
+            for (int i = 1; i < carreras.Length; i++)
+            {
+                if (carreras[i].CalcularDuracion() > mayor.CalcularDuracion())
+                {
+                    mayor = carreras[i];
+                }
+            }
+
+            Corredor rapido = carreras[0].Corredores[0];
+
+            for (int i = 0; i < carreras.Length; i++)
+            {
+                for (int j = 0; j < carreras[i].Corredores.Count; j++)
+                {
+                    if (carreras[i].Corredores[j].TiempoTotal < rapido.TiempoTotal)
+                    {
+                        rapido = carreras[i].Corredores[j];
+                    }
+                }
+            }
+
+            Console.Clear();
+
+            Console.SetCursorPosition(0, 2);
+            Console.WriteLine("Carrera con mayor duracion: " + mayor.Codigo);
+
+            Console.SetCursorPosition(0, 4);
+            Console.WriteLine("Duracion: " + mayor.CalcularDuracion());
+
+            Console.SetCursorPosition(0, 7);
+            Console.WriteLine("Corredor mas rapido: " + rapido.Nombre);
+
+            Console.SetCursorPosition(0, 9);
+            Console.WriteLine("Tiempo: " + rapido.TiempoTotal + " minutos");
+
+            Console.SetCursorPosition(0, 12);
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\juanl\OneDrive\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 22\Ejercicio 5\bin\Debug\Ejercicio 5.exe.config
+C:\Users\juanl\OneDrive\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 22\Ejercicio 5\bin\Debug\Ejercicio 5.exe
+C:\Users\juanl\OneDrive\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 22\Ejercicio 5\bin\Debug\Ejercicio 5.pdb
+C:\Users\juanl\OneDrive\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 22\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.AssemblyReference.cache
+C:\Users\juanl\OneDrive\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 22\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.CoreCompileInputs.cache
+C:\Users\juanl\OneDrive\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 22\Ejercicio 5\obj\Debug\Ejercicio 5.exe
+C:\Users\juanl\OneDrive\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 22\Ejercicio 5\obj\Debug\Ejercicio 5.pdb

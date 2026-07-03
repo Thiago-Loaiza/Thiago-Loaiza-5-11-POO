@@ -31,42 +31,56 @@ namespace Ejercicio_1
         static void Main(string[] args)
         {
             Gimnasio[] clases = new Gimnasio[3];
+
             for (int i = 0; i < clases.Length; i++)
             {
-                Console.WriteLine("Ingresa el nombre de la clase");
-                string NombreClase = Console.ReadLine();
-                Console.WriteLine("Ingresa la fecha de inicio de la clase");
-                DateTime HoraInicio = DateTime.Parse(Console.ReadLine());
-                Console.WriteLine("Ingresa la fecha de finalizacion de la clase");
-                DateTime HoraFin = DateTime.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese el nombre de la clase:");
+                string nombre = Console.ReadLine();
 
-                clases[i] = new Gimnasio(NombreClase,HoraInicio,HoraFin); 
+                Console.WriteLine("Ingrese la hora de inicio (horas:minutos)");
+                DateTime inicio = DateTime.Parse(Console.ReadLine());
+
+                Console.WriteLine("Ingrese la hora de fin (horas:minutos)");
+                DateTime fin = DateTime.Parse(Console.ReadLine());
+
+                clases[i] = new Gimnasio(nombre, inicio, fin);
             }
-                TimeSpan mayorDur = clases[0].CalculadorTiempo();
-            string nom1 = clases[0].NombreClase;
 
-            for (int i = 0; i < clases.Length; i++)
+            TimeSpan mayorDuracion = clases[0].CalculadorTiempo();
+            string nombreMayor = clases[0].NombreClase;
+
+            for (int i = 1; i < clases.Length; i++)
             {
-                if (clases[i].CalculadorTiempo() > mayorDur){
-                    mayorDur = clases[i].CalculadorTiempo();
-                    nom1 = clases[i].NombreClase;
+                TimeSpan duracion = clases[i].CalculadorTiempo();
+
+                if (duracion > mayorDuracion)
+                {
+                    mayorDuracion = duracion;
+                    nombreMayor = clases[i].NombreClase;
                 }
             }
-            Console.WriteLine("La clase con mayor duracion de: " + mayorDur + " es la clase: " +  nom1);
+
+            Console.WriteLine();
+            Console.WriteLine("La clase con mayor duracion es: " + nombreMayor);
+            Console.WriteLine("Duracion: " + mayorDuracion);
 
             DateTime masTemprana = clases[0].HoraInicio;
-            string nom2 = clases[0].NombreClase;
+            string nombreTemprano = clases[0].NombreClase;
 
-            for (int i = 0; i < clases.Length; i++)
+            for (int i = 1; i < clases.Length; i++)
             {
-                if (clases[i].HoraInicio > masTemprana)
+                if (clases[i].HoraInicio < masTemprana)
                 {
                     masTemprana = clases[i].HoraInicio;
-                    nom2 = clases[i].NombreClase;
+                    nombreTemprano = clases[i].NombreClase;
                 }
             }
 
-            Console.WriteLine("La clase mas temprana es: " + nom2 + " con una hora de inicio de: " + masTemprana);
+            Console.WriteLine();
+            Console.WriteLine("La clase mas temprana es: " + nombreTemprano);
+            Console.WriteLine("Hora de inicio: " + masTemprana);
+
+            Console.ReadKey();
         }
     }
 }
