@@ -1,7 +1,0 @@
-C:\Users\alumno.ET26\source\repos\TP1-ThiagoLoaiza\TP1-ThiagoLoaiza\bin\Debug\TP1-ThiagoLoaiza.exe.config
-C:\Users\alumno.ET26\source\repos\TP1-ThiagoLoaiza\TP1-ThiagoLoaiza\bin\Debug\TP1-ThiagoLoaiza.exe
-C:\Users\alumno.ET26\source\repos\TP1-ThiagoLoaiza\TP1-ThiagoLoaiza\bin\Debug\TP1-ThiagoLoaiza.pdb
-C:\Users\alumno.ET26\source\repos\TP1-ThiagoLoaiza\TP1-ThiagoLoaiza\obj\Debug\TP1-ThiagoLoaiza.csproj.AssemblyReference.cache
-C:\Users\alumno.ET26\source\repos\TP1-ThiagoLoaiza\TP1-ThiagoLoaiza\obj\Debug\TP1-ThiagoLoaiza.csproj.CoreCompileInputs.cache
-C:\Users\alumno.ET26\source\repos\TP1-ThiagoLoaiza\TP1-ThiagoLoaiza\obj\Debug\TP1-ThiagoLoaiza.exe
-C:\Users\alumno.ET26\source\repos\TP1-ThiagoLoaiza\TP1-ThiagoLoaiza\obj\Debug\TP1-ThiagoLoaiza.pdb
