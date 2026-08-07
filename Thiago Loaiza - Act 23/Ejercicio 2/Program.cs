@@ -41,9 +41,9 @@ namespace Ejercicio_2
                 int bat = 0;
                 Console.WriteLine("Ingrese la bateria (1 - 100)");
                 bat = int.Parse(Console.ReadLine());
-                while (bat < 0 && bat >= 100)
+                while (bat < 0 || bat > 100)
                 {
-                    Console.WriteLine("Reingrese el valor de la bateria (1 - 100)");
+                    Console.WriteLine("Reingrese el valor de la bateria (0-100)");
                     bat = int.Parse(Console.ReadLine());
                 }
                 Dron dron = new Dron(cod, bat);
@@ -63,11 +63,11 @@ namespace Ejercicio_2
 
         public void RemoverDronesBajos()
         {
-            foreach (Dron j in controles)
+            for (int i = controles.Count - 1; i >= 0; i--)
             {
-                if (j.NiveldeBateria < 15)
+                if (controles[i].NiveldeBateria <= 15)
                 {
-                    controles.Remove(j);
+                    controles.RemoveAt(i);
                 }
             }
         }
@@ -80,6 +80,8 @@ namespace Ejercicio_2
             {
                 Console.WriteLine("Dron del codigo : " + d.Codigo + " | Su nivel de bateria es : " + d.NiveldeBateria);
             }
+            Console.WriteLine();
+            Console.WriteLine("Cantidad de drones operativos: " + controles.Count);
         }
         static void Main(string[] args)
         {

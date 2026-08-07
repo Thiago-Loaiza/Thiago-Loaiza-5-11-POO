@@ -67,13 +67,22 @@ namespace Ejercicio_1
 
         public void MostrarColaPendiente()
         {
+            int total = 0;
+
             Console.WriteLine(" | Cola de impresion | ");
             Console.WriteLine();
+
             foreach (Documento b in ListaDinamica)
             {
-                Console.WriteLine("Documento : " + b.NombreArchivo + " | Cantidad de paginas : " + b.CantidaPaginas);
+                Console.WriteLine("Documento : " + b.NombreArchivo +
+                                  " | Cantidad de paginas : " + b.CantidaPaginas);
+
+                total += b.CantidaPaginas;
             }
+
             Console.WriteLine();
+            Console.WriteLine("Documentos pendientes: " + ListaDinamica.Count);
+            Console.WriteLine("Total de paginas: " + total);
         }
         static void Main(string[] args)
         {
