@@ -41,9 +41,14 @@ namespace Ejercicio_2
                 int bat = 0;
                 Console.WriteLine("Ingrese la bateria (1 - 100)");
                 bat = int.Parse(Console.ReadLine());
-                while (bat < 0 || bat > 100)
+                while (bat < 0)
                 {
-                    Console.WriteLine("Reingrese el valor de la bateria (0-100)");
+                    Console.WriteLine("Reingrese el valor de la bateria, no puede ser 0 o negativo (0-100)");
+                    bat = int.Parse(Console.ReadLine());
+                }
+                while (bat >= 100)
+                {
+                    Console.WriteLine("Reingrese el valor de la bateria, no puede ser mayor a 100 (0-100)");
                     bat = int.Parse(Console.ReadLine());
                 }
                 Dron dron = new Dron(cod, bat);
@@ -74,6 +79,7 @@ namespace Ejercicio_2
 
         public void MostrarDronesRestantes()
         {
+            Console.WriteLine();
             Console.WriteLine("Lista de todos los drones despues del descarte");
             Console.WriteLine();
             foreach (Dron d in controles)

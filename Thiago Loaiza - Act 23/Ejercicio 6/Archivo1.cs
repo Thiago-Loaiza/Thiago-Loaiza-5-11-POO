@@ -9,22 +9,22 @@ namespace Ejercicio_6
     partial class Libro
     {
         private string titulo;
-        private int anioPublicacion;
+        private int añoPublicacion;
 
         public string Titulo
         {
             get { return titulo; }
         }
 
-        public int AnioPublicacion
+        public int AñoPublicacion
         {
-            get { return anioPublicacion; }
+            get { return añoPublicacion; }
         }
 
         public Libro(string titulo, int anioPublicacion)
         {
             this.titulo = titulo;
-            this.anioPublicacion = anioPublicacion;
+            this.añoPublicacion = anioPublicacion;
         }
     }
 }

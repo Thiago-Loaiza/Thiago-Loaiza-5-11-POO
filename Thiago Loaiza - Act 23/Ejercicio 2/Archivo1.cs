@@ -18,10 +18,7 @@ namespace Ejercicio_2
         }
         public int NiveldeBateria
         {
-            set 
-            {
-                niveldebateria = value;
-            }
+            set { niveldebateria = value;}
             get { return niveldebateria; }
         }
 

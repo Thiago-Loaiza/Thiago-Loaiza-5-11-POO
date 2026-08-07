@@ -38,14 +38,14 @@ namespace Ejercicio_3
 
             string especie;
 
-            Console.WriteLine("Ingrese una especie (FIN para terminar)");
+            Console.WriteLine("Ingrese una especie ('FIN' para terminar)");
             especie = Console.ReadLine();
 
             while (especie != "FIN")
             {
                 monitoreo.especiesDetectadas.Add(especie);
 
-                Console.WriteLine("Ingrese otra especie (FIN para terminar)");
+                Console.WriteLine("Ingrese otra especie ('FIN' para terminar)");
                 especie = Console.ReadLine();
             }
         }
@@ -97,11 +97,11 @@ namespace Ejercicio_3
 
             if (encontrado)
             {
-                Console.WriteLine("La especie fue divisada.");
+                Console.WriteLine("La especie fue encontrada.");
             }
             else
             {
-                Console.WriteLine("La especie NO fue divisada.");
+                Console.WriteLine("La especie NO fue encontrada.");
             }
         }
 
@@ -110,13 +110,10 @@ namespace Ejercicio_3
             Program p = new Program();
 
             p.CargarAvistamientos();
-
             Console.WriteLine();
             p.MostrarReporteOrdenado();
-
             Console.WriteLine();
             p.MostrarReporteInvertido();
-
             Console.WriteLine();
             p.BuscarEspecie();
 

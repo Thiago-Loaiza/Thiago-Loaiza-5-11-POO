@@ -35,7 +35,7 @@ namespace Ejercicio_4
         {
             string opcion = "S";
 
-            while (opcion == "S")
+            while (opcion == "S" || opcion == "s")
             {
                 Console.WriteLine("Ingrese el nombre del dispositivo");
                 string nombre = Console.ReadLine();
@@ -48,7 +48,7 @@ namespace Ejercicio_4
                 dispositivos.Add(obj);
 
                 Console.WriteLine("Desea agregar otro dispositivo? (S/N)");
-                opcion = Console.ReadLine().ToUpper();
+                opcion = Console.ReadLine();
             }
         }
 

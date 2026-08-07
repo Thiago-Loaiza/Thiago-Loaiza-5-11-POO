@@ -44,9 +44,15 @@ namespace Ejercicio_6
             while (titulo != "FIN")
             {
                 Console.WriteLine("Ingrese el año de publicacion");
-                int anio = int.Parse(Console.ReadLine());
+                int año = int.Parse(Console.ReadLine());
 
-                Libro obj = new Libro(titulo, anio);
+                while(año < 0)
+                {
+                    Console.WriteLine("Reingresa el año, no puede ser negativo");
+                    año = int.Parse(Console.ReadLine());
+                }
+
+                Libro obj = new Libro(titulo, año);
 
                 catalogo.Add(obj);
 
@@ -65,7 +71,7 @@ namespace Ejercicio_6
             foreach (Libro l in catalogo)
             {
                 Console.WriteLine("Titulo: " + l.Titulo +
-                    " | Año: " + l.AnioPublicacion);
+                    " | Año: " + l.AñoPublicacion);
             }
 
             Console.WriteLine();
@@ -77,17 +83,17 @@ namespace Ejercicio_6
             Console.WriteLine();
             Console.WriteLine("Ingrese un año");
 
-            int anio = int.Parse(Console.ReadLine());
+            int año = int.Parse(Console.ReadLine());
 
             Console.WriteLine();
-            Console.WriteLine("Libros publicados antes de " + anio);
+            Console.WriteLine("Libros publicados antes de " + año);
 
             foreach (Libro l in catalogo)
             {
-                if (l.AnioPublicacion < anio)
+                if (l.AñoPublicacion < año)
                 {
                     Console.WriteLine("Titulo: " + l.Titulo +
-                        " | Año: " + l.AnioPublicacion);
+                        " | Año: " + l.AñoPublicacion);
                 }
             }
         }
@@ -126,16 +132,12 @@ namespace Ejercicio_6
             BibliotecaCentral bc = new BibliotecaCentral();
 
             bc.CargarCatalogo();
-
             Console.WriteLine();
             bc.ListarCatalogo();
-
             Console.WriteLine();
             bc.FiltrarPorAnio();
-
             Console.WriteLine();
             bc.RemoverLibro();
-
             Console.WriteLine();
             bc.ListarCatalogo();
 

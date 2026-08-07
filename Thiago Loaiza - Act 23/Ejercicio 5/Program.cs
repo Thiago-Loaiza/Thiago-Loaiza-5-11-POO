@@ -60,7 +60,7 @@ namespace Ejercicio_5
         public void BuscarVehiculo()
         {
             Console.WriteLine();
-            Console.WriteLine("Ingrese la patente a buscar");
+            Console.WriteLine("Ingrese la patente a buscar del auto a reparar");
 
             string patente = Console.ReadLine();
 
@@ -86,7 +86,7 @@ namespace Ejercicio_5
         public void EntregarVehiculo()
         {
             Console.WriteLine();
-            Console.WriteLine("Ingrese la patente del vehiculo");
+            Console.WriteLine("Reingrese la patente del vehiculo para confirmar su finalizacion de reparacion");
 
             string patente = Console.ReadLine();
 
@@ -138,13 +138,12 @@ namespace Ejercicio_5
             GestionTaller gt = new GestionTaller();
 
             gt.IngresarVehiculo();
-
             Console.WriteLine();
+            //gt.BuscarVehiculo();
             gt.BuscarVehiculo();
-
             Console.WriteLine();
+            //gt.EntregarVehiculo();
             gt.EntregarVehiculo();
-
             Console.WriteLine();
             gt.CalcularRecaudacionPendiente();
 
