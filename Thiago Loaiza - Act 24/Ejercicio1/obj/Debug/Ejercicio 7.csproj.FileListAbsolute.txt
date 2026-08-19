@@ -1,0 +1,7 @@
+C:\Users\juanl\source\repos\Thiago Loaiza - Act 24\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\juanl\source\repos\Thiago Loaiza - Act 24\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\Users\juanl\source\repos\Thiago Loaiza - Act 24\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\Users\juanl\source\repos\Thiago Loaiza - Act 24\Ejercicio1\obj\Debug\Ejercicio 7.csproj.AssemblyReference.cache
+C:\Users\juanl\source\repos\Thiago Loaiza - Act 24\Ejercicio1\obj\Debug\Ejercicio 7.csproj.CoreCompileInputs.cache
+C:\Users\juanl\source\repos\Thiago Loaiza - Act 24\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\juanl\source\repos\Thiago Loaiza - Act 24\Ejercicio1\obj\Debug\Ejercicio1.pdb
