@@ -26,10 +26,59 @@ namespace Ejercicio_10
             alojados en la playa y la cantidad total de unidades presentes
             utilizando la propiedad .Count.
      */
-    internal class Program
+    internal class GestionEstacionamiento
     {
+        List<Ticket> ListaTickets = new List<Ticket>();  
+
+        public void RegistrarIngreso()
+        {
+            string patente = "";
+            int horas;
+            Console.WriteLine("Ingresa los datos del ticket");
+            Console.WriteLine("Ingresa la patente: ");
+            patente = Console.ReadLine();
+            Console.WriteLine("Ingresa las horas de estadia");
+            horas = int.Parse(Console.ReadLine());
+
+            Ticket ticket = new Ticket(patente,horas);
+
+            ListaTickets.Add(ticket);
+        }
+
+        public void ProcesarSalida()
+        {
+            if(ListaTickets.Count > 0)
+            {
+                Console.WriteLine("Un auto esta saliendo...");
+                Console.WriteLine("El auto con patente : " + ListaTickets[0].Patente + " con su Hs de estadia : " + ListaTickets[0].HorasSentandia + " se esta retirando");
+                ListaTickets.RemoveAt(0);
+                Console.WriteLine("El auto salio con exito");
+            }
+            else
+            {
+                Console.WriteLine("No hay autos actualmente");
+            }
+        }
+
+        public void MostrarVehiculosEstacionados()
+        {
+            Console.WriteLine("Lista de autos");
+            foreach (var t in ListaTickets)
+            {
+                Console.WriteLine("Auto - Patente: " + t.Patente + " - Horas de estadia: " + t.HorasSentandia);
+            }
+            Console.WriteLine("Hay un total de: " + ListaTickets.Count + " Autos");
+        }
+
         static void Main(string[] args)
         {
+            GestionEstacionamiento ge = new GestionEstacionamiento();
+
+            ge.RegistrarIngreso();
+            ge.RegistrarIngreso();
+            ge.ProcesarSalida();
+            ge.MostrarVehiculosEstacionados();
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\alumno.ET26\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 24\Ejercicio 10\bin\Debug\Ejercicio 10.exe.config
+C:\Users\alumno.ET26\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 24\Ejercicio 10\bin\Debug\Ejercicio 10.exe
+C:\Users\alumno.ET26\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 24\Ejercicio 10\bin\Debug\Ejercicio 10.pdb
+C:\Users\alumno.ET26\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 24\Ejercicio 10\obj\Debug\Ejercicio 10.csproj.AssemblyReference.cache
+C:\Users\alumno.ET26\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 24\Ejercicio 10\obj\Debug\Ejercicio 10.csproj.CoreCompileInputs.cache
+C:\Users\alumno.ET26\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 24\Ejercicio 10\obj\Debug\Ejercicio 10.exe
+C:\Users\alumno.ET26\Desktop\Thiago-Loaiza-5-11-POO\Thiago Loaiza - Act 24\Ejercicio 10\obj\Debug\Ejercicio 10.pdb
